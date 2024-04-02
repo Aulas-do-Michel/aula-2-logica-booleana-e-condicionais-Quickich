@@ -22,7 +22,7 @@ Dica: Lembre do comando de resto da divisão inteira!
 numero = float(input("Digite um número:"))
 
 if numero % 2 == 0:
-  print("O número é par")
+  print("Par")
 else:
-  print("O número é ímpar")
+  print("Ímpar")
   
