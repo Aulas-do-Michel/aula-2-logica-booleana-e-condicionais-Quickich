@@ -41,8 +41,7 @@ Sim
 cromossomo = input("Digite o cromossomo: ")
 posição = int(input("Digite a posição: "))
 
-if cromossomo == chr17:
-and posição > 41196311 and posição < 41277501
+if cromossomo == "chr17" and posição > 41196311 and posição < 41277501:
   print("Sim")
   else:
   print("Não")
