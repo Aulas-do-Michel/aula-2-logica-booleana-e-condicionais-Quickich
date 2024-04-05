@@ -60,12 +60,13 @@ cromossomo = input("Digite o cromossomo: ")
 posição = int(input("Digite a posição: "))
 genoma_referência = input("Digite o genoma de referência: ")
 
-if cromossomo == chr17 and 41196312 =< posição =< 41277500 and genoma_referência == hg19:
-  print("Sim")
-elif cromossomo == chr17 and 43044295 =< posição =< 43125483 and genoma_referência == hg38:
-  print("Sim")
+
+if cromossomo == "chr17" and 41196312 <= posicao <= 41277500 and genoma_referencia == "hg19":
+    print("Sim")
+elif cromossomo == "chr17" and 43044295 <= posicao <= 43125483 and genoma_referencia == "hg38":
+    print("Sim")
 else:
-print("Não")
+    print("Não")
 
 
 
