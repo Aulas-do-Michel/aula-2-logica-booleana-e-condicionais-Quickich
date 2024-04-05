@@ -52,3 +52,42 @@ Qual país você vai viajar? China
 Resposta:
 Não temos essa moeda em caixa.
 """
+
+def casa_de_cambio():
+    moedas_em_caixa = {
+        "USD": 0,
+        "ARS": 0,
+        "JPY": 0
+    }
+
+    destino = input("Qual país você vai viajar? ").lower()
+
+    if destino in ["estados unidos", "argentina", "japão"]:
+        valor_em_reais = float(input("Quantos reais você quer converter? "))
+
+        if destino == "estados unidos":
+            moeda_convertida = valor_em_reais / 5
+            tipo_moeda = "USD"
+        elif destino == "argentina":
+            moeda_convertida = valor_em_reais * 180
+            tipo_moeda = "ARS"
+        elif destino == "japão":
+            moeda_convertida = valor_em_reais * 30
+            tipo_moeda = "JPY"
+
+        print(f"Resposta:\n{moeda_convertida:.2f} {tipo_moeda}")
+    else:
+        print("Não temos essa moeda em caixa.")
+
+casa_de_cambio()
+
+
+    
+
+
+
+
+
+
+
+
