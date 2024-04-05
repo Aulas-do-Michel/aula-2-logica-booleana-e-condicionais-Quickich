@@ -57,7 +57,7 @@ Não
 """
 
 cromossomo = input("Digite o cromossomo: ")
-posição = int(input("Digite a posição: ")
+posição = int(input("Digite a posição: "))
 genoma_referência = input("Digite o genoma de referência: ")
 
 if cromossomo == chr17 and 41196312 =< posição =< 41277500 and genoma_referência == hg19:
